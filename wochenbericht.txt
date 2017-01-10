@@ -1,0 +1,44 @@
+Eressea
+in der letzten Woche des Monats Eiswind im Jahre 31 des zweiten Zeitalters.
+
+Auswertung Nr:         1008
+
+Parteien:              196 (+0)
+Einheiten:             162412 (+333)
+Spielerpopulation:     12862882 (+29021)
+ davon bewaffnet:      4362650 (+525)
+ Helden:               5778 (+2)
+      Zwergenvölker: 28 (+0)
+        Elfenvölker: 37 (+0)
+       Goblinvölker: 4 (+0)
+     Menschenvölker: 21 (+0)
+        Trollvölker: 14 (+0)
+     Dämonenvölker: 13 (+0)
+     Insektenvölker: 11 (+0)
+    Halblingsvölker: 13 (+0)
+       Katzenvölker: 12 (+0)
+ Meermenschenvölker: 31 (+0)
+          Orkvölker: 11 (+0)
+
+              Zwerge: 1873494 (+7431,+0%)
+               Elfen: 1099717 (+2508,+0%)
+             Goblins: 182501 (+610,+0%)
+            Menschen: 6530762 (+7193,+0%)
+              Trolle: 562114 (+306,+0%)
+            Dämonen: 23109 (+59,+0%)
+            Insekten: 313309 (-2,0%)
+           Halblinge: 164544 (+1340,+0%)
+              Katzen: 529796 (+4398,+0%)
+        Meermenschen: 1248133 (+5376,+0%)
+                Orks: 308508 (-251,0%)
+           Snotlinge: 1181 (+0,+0%)
+             Kröten: 5 (-2,-28%)
+
+
+0 NMR:		 179
+1 NMR:		 9
+2 NMR:		 7
+3 NMR:		 0
+4 NMR:		 0
++ NMR:		 0
+Neue Spieler:	 0
