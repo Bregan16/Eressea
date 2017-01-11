@@ -1,0 +1,36 @@
+ERESSEA mshj "y8j5mp"
+; TIMESTAMP 1246610906778
+; Magellan Version 2.0.4 (build 294)
+; ECHECK -r100 -s -l -w4 -v4.3.2
+LOCALE de
+REGION 0,0 ; Vesor
+; ECheck Lohn 11
+EINHEIT 1u0x;		Entdecker [1,5000$]
+LERNEN Burgenbau
+BENENNEN PARTEI "Das Valianische Imperium"
+BENENNEN EINHEIT "Steinmetz"
+GIB TEMP 1u0x 200 Silber; Rekrutierungskosten
+GIB TEMP 1u0y 500 Silber; Rekrutierungskosten
+GIB TEMP 1u0z 500 Silber; Rekrutierungskosten
+GIB TEMP 1u10 100 Silber; Rekrutierungskosten
+MACHEN TEMP 1u10
+BENENNEN EINHEIT "Ferdinant Porsche"
+REKRUTIEREN 1 Mensch
+LERNEN Wagenbau
+ENDE
+MACHEN TEMP 1u0x
+BENENNEN EINHEIT "Echsendompteur"
+REKRUTIEREN 1 elf
+LERNEN Pferdedressur
+ENDE
+MACHEN TEMP 1u0y
+BENENNEN EINHEIT "Forscher"
+REKRUTIEREN 2 Menschen
+Nach no
+ENDE
+MACHEN TEMP 1u0z
+BENENNEN EINHEIT "Forscher"
+REKRUTIEREN 2 Menschen
+Nach NW
+ENDE
+NÄCHSTER

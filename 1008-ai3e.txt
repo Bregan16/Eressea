@@ -1,20 +1,15 @@
-﻿
-Vorlage für den nächsten Zug:
-
-ERESSEA ai3e "password"
-
-; ECHECK -l -w4 -r90 -v4.01
-
+ERESSEA ai3e "k2i46q"
+; ECHECK -r100 -s -l -w4 -v4.3.2
 REGION 0,0 ; Barradobur
 ; ECheck Lohn 14
 
 EINHEIT sars;    Einheit sars [1,20004$]
   Lerne Steuereintreiben
   BENENNE EINHEIT "Lagermeister"
-  BETRETE GEBÄUDE zojd
+  BETRETE GEB�UDE zojd
   
   GIB TEMP  1 100 Silber
-  GIB TEMP  2 200 Silber
+  GIB TEMP  2 300 Silber
   GIB TEMP  3 150 Silber
   GIB TEMP  4 150 Silber
   GIB TEMP  5 150 Silber
@@ -27,7 +22,7 @@ EINHEIT sars;    Einheit sars [1,20004$]
   GIB TEMP 11 10 Eisen
   GIB TEMP 12 100 Silber
 
-  
+ 
   MACHE TEMP 12
     REKRUTIERE 1
     BENENNE EINHEIT "Krämer"
@@ -48,13 +43,14 @@ EINHEIT sars;    Einheit sars [1,20004$]
     REKRUTIERE 1
     BENENNE EINHEIT "Alter Troll"
     DEFAULT "LERNE Wahrnehmung"
-    BETRETE GEBÄUDE zojd
+    LERNE Wahrnehmung
+    BETRETE GEB�UDE zojd
   ENDE
   MACHE TEMP 2
     REKRUTIERE 1
     BENENNE EINHEIT "Bregan"
     LERNE MAGIE "Draig"
-    BETRETE GEBÄUDE g35e
+    BETRETE GEB�UDE g35e
   ENDE
   
   MACHE TEMP 3
@@ -108,4 +104,5 @@ EINHEIT f7ui;    Einheit f7ui [5,20$]
   BENENNE EINHEIT "Steinbrecher"
   arbeite
 
-NÄCHSTER
+NAECHSTER
+
