@@ -13,7 +13,7 @@
 
                              Warnungen und Fehler
 
-Deine Partei hat letzte Runde keinen Zug abgegeben!
+Deine Partei hat letzte Runde keinen Zug abgegeben!!!!
 
                                   Ereignisse
 
