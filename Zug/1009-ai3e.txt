@@ -22,7 +22,8 @@ REGION -1,0 ; Zupapumes
 EINHEIT m1ea;    Alter Troll [1,50$]
   lerne Unterhaltung
 EINHEIT gyhq;    Alter Troll [1,60$]
-  LERNE Wahrnehmung
+  nach w
+  // lerne Unterhaltung
 
 REGION -1,1 ; Babilrendud
 ; ECheck Lohn 13
