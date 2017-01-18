@@ -1,0 +1,85 @@
+ERESSEA ai3e "k2i46q"
+
+; ECHECK -l -w4 -r90 -v4.01
+
+REGION 1,-1 ; Dusyem
+; ECheck Lohn 12
+
+EINHEIT qdbe;    Alter Troll [1,50$]
+  nach o
+  // lerne Unterhaltung
+
+REGION 1,0 ; Rusyem
+; ECheck Lohn 12
+
+EINHEIT k0ge;    Alter Troll [1,50$]
+  nach o
+  // lerne Unterhaltung
+
+REGION -1,0 ; Zupapumes
+; ECheck Lohn 13
+
+EINHEIT m1ea;    Alter Troll [1,50$]
+  lerne Unterhaltung
+EINHEIT gyhq;    Alter Troll [1,60$]
+  LERNE Wahrnehmung
+
+REGION -1,1 ; Babilrendud
+; ECheck Lohn 13
+
+EINHEIT at7g;    Alter Troll [1,50$]
+  nach no
+  // lerne Unterhaltung
+
+REGION 0,-1 ; Lanjadobur
+; ECheck Lohn 13
+
+EINHEIT j5ff;    Alter Troll [1,50$]
+  nach sw
+  // lerne Unterhaltung
+
+REGION 0,0 ; Barradobur
+; ECheck Lohn 14
+
+EINHEIT 4i2m;    Bregan [1,100$]
+  PRÄFIX Nebel
+  default arbeite
+  lerne Magie
+  BENENNE PARTEI "Nebeltrolle"
+  EMAIL "bregan.eressea@gmx.de"
+EINHEIT sars;    Lagermeister [1,17834$]
+  Treibe
+  MACHE TEMP 1
+    REKRUTIERE 5
+    BENENNE EINHEIT "Waldarbeiter"
+    Lerne Holzfaellen 
+  ENDE
+  MACHE TEMP 2
+    REKRUTIERE 1
+    BENENNE EINHEIT "Legat"
+    Lerne Taktik 
+    BEFÖRDERE
+  ENDE
+  gib temp 1 450 Silber
+  gib temp 2 290 Silber
+EINHEIT 9y3w;    Bergmann [5,40$]
+  ARBEITE
+EINHEIT f7ui;    Steinbrecher [5,40$]
+  ARBEITE
+EINHEIT ceL6;    Krämer [1,0$]
+  KAUFE 10 Juwelen
+EINHEIT 72s7;    Schmied [1,0$]
+  LERNE Waffenbau
+EINHEIT d1xs;    Stadtwache [5,0$]
+  LERNE Hiebwaffen
+EINHEIT Ljb2;    Alter Troll [1,0$]
+  LERNE Wahrnehmung
+
+REGION 0,1 ; Norrerdobur
+; ECheck Lohn 13
+
+EINHEIT 5akd;    Alter Troll [1,50$]
+  nach no
+  // lerne Unterhaltung
+
+NAECHSTER

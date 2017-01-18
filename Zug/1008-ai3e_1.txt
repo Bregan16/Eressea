@@ -1,0 +1,21 @@
+ERESSEA ai3e "k2i46q"
+
+; ECHECK -l -w4 -r90
+
+REGION 0,0 ; Barradobur
+
+; ECheck Lohn 14
+
+EINHEIT sars;    Einheit sars [1,20004$]
+
+  ARBEITE
+  
+EINHEIT 9y3w;    Einheit 9y3w [5,20$]
+
+  ARBEITE
+  
+EINHEIT f7ui;    Einheit f7ui [5,20$]
+
+  ARBEITE
+  
+NAECHSTER

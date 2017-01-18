@@ -1,0 +1,108 @@
+ERESSEA ai3e "k2i46q"
+; ECHECK -r100 -s -l -w4 -v4.3.2
+REGION 0,0 ; Barradobur
+; ECheck Lohn 14
+
+EINHEIT sars;    Einheit sars [1,20004$]
+  Lerne Steuereintreiben
+  BENENNE EINHEIT "Lagermeister"
+  BETRETE GEB훃DE zojd
+  
+  GIB TEMP  1 100 Silber
+  GIB TEMP  2 300 Silber
+  GIB TEMP  3 150 Silber
+  GIB TEMP  4 150 Silber
+  GIB TEMP  5 150 Silber
+  GIB TEMP  6 150 Silber
+  GIB TEMP  7 150 Silber
+  GIB TEMP  8 150 Silber
+  GIB TEMP  9 160 Silber
+  GIB TEMP 10 500 Silber
+  GIB TEMP 11 100 Silber
+  GIB TEMP 11 10 Eisen
+  GIB TEMP 12 100 Silber
+
+ 
+  MACHE TEMP 12
+    REKRUTIERE 1
+    BENENNE EINHEIT "Kr채mer"
+    Lerne Handeln 
+  ENDE
+  MACHE TEMP 11
+    REKRUTIERE 1
+    BENENNE EINHEIT "Schmied"
+    Lerne Waffenbau 
+  ENDE
+  MACHE TEMP 10
+    REKRUTIERE 5
+    BENENNE EINHEIT "Stadtwache"
+    Lerne Steuereintreiben 
+  ENDE
+  
+  MACHE TEMP 1
+    REKRUTIERE 1
+    BENENNE EINHEIT "Alter Troll"
+    DEFAULT "LERNE Wahrnehmung"
+    LERNE Wahrnehmung
+    BETRETE GEB훃DE zojd
+  ENDE
+  MACHE TEMP 2
+    REKRUTIERE 1
+    BENENNE EINHEIT "Bregan"
+    LERNE MAGIE "Draig"
+    BETRETE GEB훃DE g35e
+  ENDE
+  
+  MACHE TEMP 3
+    REKRUTIERE 1
+    BENENNE EINHEIT "Alter Troll"
+    DEFAULT "LERNE Wahrnehmung"
+    nach w 
+  ENDE
+  MACHE TEMP 4
+    REKRUTIERE 1
+    BENENNE EINHEIT "Alter Troll"
+    DEFAULT "LERNE Wahrnehmung"
+    nach nw 
+  ENDE
+  MACHE TEMP 5
+    REKRUTIERE 1
+    BENENNE EINHEIT "Alter Troll"
+    DEFAULT "LERNE Wahrnehmung"
+    nach no 
+  ENDE
+  MACHE TEMP 6
+    REKRUTIERE 1
+    BENENNE EINHEIT "Alter Troll"
+    DEFAULT "LERNE Wahrnehmung"
+    nach o 
+  ENDE
+  MACHE TEMP 7
+    REKRUTIERE 1
+    BENENNE EINHEIT "Alter Troll"
+    DEFAULT "LERNE Wahrnehmung"
+    nach so 
+  ENDE
+  MACHE TEMP 8
+    REKRUTIERE 1
+    DEFAULT "LERNE Wahrnehmung"
+    BENENNE EINHEIT "Alter Troll"
+    nach sw 
+  ENDE
+  MACHE TEMP 9
+    REKRUTIERE 1
+    BENENNE EINHEIT "Alter Troll"
+    DEFAULT "LERNE Wahrnehmung"
+    nach w w 
+  ENDE
+  
+EINHEIT 9y3w;    Einheit 9y3w [5,20$]
+  BENENNE EINHEIT "Bergmann"
+  arbeite
+  
+EINHEIT f7ui;    Einheit f7ui [5,20$]
+  BENENNE EINHEIT "Steinbrecher"
+  arbeite
+
+NAECHSTER
+
