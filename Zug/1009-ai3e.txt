@@ -43,7 +43,7 @@ REGION 0,0 ; Barradobur
 ; ECheck Lohn 14
 
 EINHEIT 4i2m;    Bregan [1,100$]
-  PRÄFIX Nebel
+  PRAEFIX Nebel
   default arbeite
   lerne Magie
   BENENNE PARTEI "Nebeltrolle"
@@ -59,7 +59,7 @@ EINHEIT sars;    Lagermeister [1,17834$]
     REKRUTIERE 1
     BENENNE EINHEIT "Legat"
     Lerne Taktik 
-    BEFÖRDERE
+    BEFOERDERE
   ENDE
   gib temp 1 450 Silber
   gib temp 2 290 Silber
