@@ -1,0 +1,179 @@
+ERESSEA ai3e "k2i46q"
+
+; ECHECK -l -w4 -r90 -v4.01
+
+REGION 2,-1 ; Sanpivor
+; ECheck Lohn 13
+
+EINHEIT qdbe;    Alter Troll [1,40$]
+  // LERNE Wahrnehmung
+  lerne Unterhaltung
+  betrete burg ux7h
+  KÄMPFE NICHT
+
+REGION 2,0 ; Gehydrin
+; ECheck Lohn 12
+
+EINHEIT k0ge;    Alter Troll [1,40$]
+  // LERNE Wahrnehmung
+  lerne Unterhaltung
+  betrete burg 7x13
+  KÄMPFE NICHT
+
+REGION -2,0 ; Nytrumas
+; ECheck Lohn 12
+
+EINHEIT gyhq;    Alter Troll [1,50$]
+  nach o
+  // lerne Unterhaltung
+  KÄMPFE NICHT
+
+REGION -1,0 ; Zupapumes
+; ECheck Lohn 13
+
+EINHEIT m1ea;    Alter Troll [1,40$]
+  LERNE Unterhaltung
+  betrete burg m5ox
+  KÄMPFE NICHT
+
+REGION -1,2 ; Temyr
+; ECheck Lohn 12
+
+EINHEIT at7g;    Alter Troll [1,40$]
+  // LERNE Wahrnehmung
+  lerne Unterhaltung
+  betrete burg L642
+  KÄMPFE NICHT
+
+REGION 0,-2 ; Kigar
+; ECheck Lohn 12
+
+EINHEIT j5ff;    Alter Troll [1,40$]
+  // LERNE Wahrnehmung
+  lerne Unterhaltung
+  KÄMPFE NICHT
+
+REGION 0,0 ; Barradobur
+; ECheck Lohn 14
+
+EINHEIT 4i2m;    Bregan [1,0$]
+  lerne Magie
+  option TALENTVERSCHIEBUNG
+  KÄMPFE HINTEN
+  KAMPFZAUBER STUFE 1 Feuerball
+EINHEIT sars;    Lagermeister [1,16804$]
+  TREIBE
+  KÄMPFE NICHT
+    
+  GIB TEMP  1 150 Silber
+  GIB TEMP  2 150 Silber
+  GIB TEMP  3 150 Silber
+  GIB TEMP  4 150 Silber
+  GIB TEMP  5 150 Silber
+  GIB TEMP  6 150 Silber
+  GIB TEMP  7 1000 Silber
+  GIB TEMP  8 150 Silber
+  
+  MACHE TEMP 1
+    REKRUTIERE 1
+    BENENNE EINHEIT "Alter Troll"
+    DEFAULT "LERNE Wahrnehmung"
+    KÄMPFE NICHT
+    nach no
+  ENDE
+  
+  MACHE TEMP 2
+    REKRUTIERE 1
+    BENENNE EINHEIT "Alter Troll"
+    DEFAULT "LERNE Wahrnehmung"
+    KÄMPFE NICHT
+    nach o
+  ENDE
+  
+  MACHE TEMP 3
+    REKRUTIERE 1
+    BENENNE EINHEIT "Alter Troll"
+    DEFAULT "LERNE Wahrnehmung"
+    KÄMPFE NICHT
+    nach so
+  ENDE
+  
+  MACHE TEMP 4
+    REKRUTIERE 1
+    BENENNE EINHEIT "Alter Troll"
+    DEFAULT "LERNE Wahrnehmung"
+    KÄMPFE NICHT
+    nach sw
+  ENDE
+  
+  MACHE TEMP 5
+    REKRUTIERE 1
+    BENENNE EINHEIT "Alter Troll"
+    DEFAULT "LERNE Wahrnehmung"
+    KÄMPFE NICHT
+    nach w
+  ENDE
+  
+  MACHE TEMP 6
+    REKRUTIERE 1
+    BENENNE EINHEIT "Alter Troll"
+    DEFAULT "LERNE Wahrnehmung"
+    KÄMPFE NICHT
+    nach nw
+  ENDE
+  
+  MACHE TEMP 7
+    REKRUTIERE 10
+    BENENNE EINHEIT "1. Legion"
+    LERNE Stangenwaffen
+  ENDE
+  
+  MACHE TEMP 8
+    REKRUTIERE 1
+    BENENNE EINHEIT "Ferdinand"
+    LERNE Wagenbau
+    KÄMPFE NICHT
+  ENDE
+  
+  MACHE TEMP 9
+    REKRUTIERE 1
+    BENENNE EINHEIT "Plattner"
+    LERNE Rüstungsbau
+    KÄMPFE NICHT
+  ENDE
+EINHEIT 9y3w;    Bergmann [5,60$]
+  ARBEITE
+  KÄMPFE NICHT
+EINHEIT f7ui;    Steinbrecher [5,60$]
+  ARBEITE
+  KÄMPFE NICHT
+EINHEIT ceL6;    KrÃƒÂ¤mer [1,0$]
+  KAUFE 10 Juwelen
+  KÄMPFE NICHT
+  benenne einheit "Jakob Fugger"
+EINHEIT 72s7;    Schmied [1,0$]
+  LERNE Waffenbau
+  KÄMPFE NICHT
+EINHEIT d1xs;    Stadtwache [5,0$]
+  // LERNE Hiebwaffen
+  LERNE Steuereintreiben
+EINHEIT Ljb2;    Alter Troll [1,0$]
+  LERNE Wahrnehmung
+  KÄMPFE NICHT
+EINHEIT 3fmt;    Waldarbeiter [5,0$]
+  Mache Holz
+  KÄMPFE NICHT
+EINHEIT jLgj;    Legat [1,0$]
+  LERNE Taktik
+  KÄMPFE HINTEN
+
+REGION 0,2 ; Navisrunun
+; ECheck Lohn 13
+
+EINHEIT 5akd;    Alter Troll [1,40$]
+  // LERNE Wahrnehmung
+  betrete burg 1ja1
+  lerne Unterhaltung
+  KÄMPFE NICHT
+
+NAECHSTER
