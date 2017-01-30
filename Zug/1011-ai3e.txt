@@ -1,0 +1,148 @@
+ERESSEA ai3e "k2i46q"
+
+; ECHECK -l -w4 -r90 -v4.01
+
+REGION 1,-1 ; Dusyem
+; ECheck Lohn 12
+
+EINHEIT uft7;    Alter Troll [1,50$]
+  // LERNE Wahrnehmung
+  LERNE Unterhaltung
+
+REGION 1,0 ; Rusyem
+; ECheck Lohn 12
+
+EINHEIT aj6x;    Alter Troll [1,50$]
+  // LERNE Wahrnehmung
+  LERNE Unterhaltung
+
+REGION 2,-1 ; Sanpivor
+; ECheck Lohn 13
+
+EINHEIT qdbe;    Alter Troll [1,30$]
+  // LERNE Wahrnehmung
+  LERNE Unterhaltung
+
+REGION 2,0 ; Gehydrin
+; ECheck Lohn 12
+
+EINHEIT k0ge;    Alter Troll [1,30$]
+  // LERNE Wahrnehmung
+  LERNE Unterhaltung
+
+REGION -1,0 ; Zupapumes
+; ECheck Lohn 13
+
+EINHEIT m1ea;    Alter Troll [1,30$]
+  LERNE Wahrnehmung
+  // lerne Unterhaltung
+EINHEIT gyhq;    Alter Troll [1,40$]
+   nach w
+  // lerne Unterhaltung
+EINHEIT 4vpi;    Alter Troll [1,50$]
+  nach sw
+  // lerne Unterhaltung
+
+REGION -1,1 ; Babilrendud
+; ECheck Lohn 13
+
+EINHEIT 8ihy;    Alter Troll [1,50$]
+  nach w
+  // LERNE Unterhaltung
+
+REGION -1,2 ; Temyr
+; ECheck Lohn 12
+
+EINHEIT at7g;    Alter Troll [1,30$]
+  // LERNE Wahrnehmung
+  LERNE Unterhaltung
+
+REGION 0,-2 ; Kigar
+; ECheck Lohn 12
+
+EINHEIT j5ff;    Alter Troll [1,30$]
+  // LERNE Wahrnehmung
+  LERNE Unterhaltung
+  betrete burg c161
+
+REGION 0,-1 ; Lanjadobur
+; ECheck Lohn 13
+
+EINHEIT dst1;    Alter Troll [1,50$]
+  // LERNE Wahrnehmung
+  nach so
+
+REGION 0,0 ; Barradobur
+; ECheck Lohn 14
+
+EINHEIT 4i2m;    Bregan [1,0$]
+  LERNE Magie
+EINHEIT sars;    Lagermeister [1,13914$]
+  TREIBE
+  gib 72s7 20 Holz
+  gib i6jk 10 eisen
+  
+  GIB TEMP  1 150 Silber
+  GIB TEMP  2 150 Silber
+  GIB TEMP  3 1000 Silber
+  
+  MACHE TEMP 1
+    REKRUTIERE 1
+    BENENNE EINHEIT "Alter Troll"
+    DEFAULT "LERNE Wahrnehmung"
+    KÄMPFE NICHT
+    nach sw
+  ENDE
+  MACHE TEMP 2
+    REKRUTIERE 1
+    BENENNE EINHEIT "Alter Troll"
+    DEFAULT "LERNE Wahrnehmung"
+    KÄMPFE NICHT
+    nach nw
+  ENDE
+  MACHE TEMP 3
+    REKRUTIERE 10
+    BENENNE EINHEIT "2. Legion"
+    LERNE Stangenwaffen
+  ENDE
+EINHEIT 9y3w;    Bergmann [5,80$]
+  ARBEITE
+EINHEIT f7ui;    Steinbrecher [5,80$]
+  ARBEITE
+EINHEIT ceL6;    Jakob Fugger [1,0$]
+  KAUFE 5 Juwelen
+EINHEIT 72s7;    Schmied [1,0$]
+  Mache Speer
+EINHEIT d1xs;    Stadtwache [5,0$]
+  // LERNE Hiebwaffen
+  LERNE Steuereintreiben
+EINHEIT Ljb2;    Alter Troll [1,0$]
+  LERNE Wahrnehmung
+EINHEIT 3fmt;    Waldarbeiter [5,0$]
+  MACHE Holz
+  @gib 72s7 5 Holz
+EINHEIT jLgj;    Legat [1,0$]
+  LERNE Taktik
+  BEFoeRDERE
+EINHEIT fp2L;    1. Legion [10,0$]
+  LERNE Stangenwaffen
+EINHEIT xvp5;    Ferdinand [1,50$]
+  LERNE Wagenbau
+EINHEIT i6jk;    Plattner [1,0$]
+  Mache Schild
+
+REGION 0,1 ; Norrerdobur
+; ECheck Lohn 13
+
+EINHEIT eqxf;    Alter Troll [1,50$]
+  // LERNE Wahrnehmung
+  LERNE Unterhaltung
+
+REGION 0,2 ; Navisrunun
+; ECheck Lohn 13
+
+EINHEIT 5akd;    Alter Troll [1,30$]
+  // LERNE Wahrnehmung
+  LERNE Unterhaltung
+
+NAECHSTER
