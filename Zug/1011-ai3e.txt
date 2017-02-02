@@ -8,6 +8,7 @@ REGION 1,-1 ; Dusyem
 EINHEIT uft7;    Alter Troll [1,50$]
   // LERNE Wahrnehmung
   LERNE Unterhaltung
+  betrete burg 5zme
 
 REGION 1,0 ; Rusyem
 ; ECheck Lohn 12
@@ -15,6 +16,7 @@ REGION 1,0 ; Rusyem
 EINHEIT aj6x;    Alter Troll [1,50$]
   // LERNE Wahrnehmung
   LERNE Unterhaltung
+  betrete burg oyjm
 
 REGION 2,-1 ; Sanpivor
 ; ECheck Lohn 13
@@ -77,59 +79,83 @@ REGION 0,0 ; Barradobur
 
 EINHEIT 4i2m;    Bregan [1,0$]
   LERNE Magie
+  HELFE 3woi BEWACHE
+  HELFE 3woi GIB
+  HELFE 3woi PARTEITARNUNG
+  KAMPFZAUBER STUFE 1 "Feuerball"
 EINHEIT sars;    Lagermeister [1,13914$]
   TREIBE
+  betrete burg zojd
   gib 72s7 20 Holz
   gib i6jk 10 eisen
   
   GIB TEMP  1 150 Silber
   GIB TEMP  2 150 Silber
   GIB TEMP  3 1000 Silber
+  GIB TEMP  4 500 Silber
   
   MACHE TEMP 1
     REKRUTIERE 1
     BENENNE EINHEIT "Alter Troll"
     DEFAULT "LERNE Wahrnehmung"
-    KÄMPFE NICHT
+    betrete burg zojd
     nach sw
   ENDE
   MACHE TEMP 2
     REKRUTIERE 1
     BENENNE EINHEIT "Alter Troll"
     DEFAULT "LERNE Wahrnehmung"
-    KÄMPFE NICHT
+    betrete burg zojd
     nach nw
   ENDE
   MACHE TEMP 3
     REKRUTIERE 10
     BENENNE EINHEIT "2. Legion"
     LERNE Stangenwaffen
+    betrete burg zojd
+  ENDE
+  MACHE TEMP 4
+    REKRUTIERE 5
+    BENENNE EINHEIT "Waldarbeiter"
+    LERNE Holzfaellen
+    betrete burg zojd
   ENDE
 EINHEIT 9y3w;    Bergmann [5,80$]
   ARBEITE
+  betrete burg zojd
 EINHEIT f7ui;    Steinbrecher [5,80$]
   ARBEITE
+  betrete burg zojd
 EINHEIT ceL6;    Jakob Fugger [1,0$]
   KAUFE 5 Juwelen
+  betrete burg zojd
 EINHEIT 72s7;    Schmied [1,0$]
   Mache Speer
+  betrete burg zojd
 EINHEIT d1xs;    Stadtwache [5,0$]
   // LERNE Hiebwaffen
   LERNE Steuereintreiben
+  betrete burg zojd
 EINHEIT Ljb2;    Alter Troll [1,0$]
   LERNE Wahrnehmung
+  betrete burg zojd
 EINHEIT 3fmt;    Waldarbeiter [5,0$]
   MACHE Holz
   @gib 72s7 5 Holz
+  betrete burg zojd
 EINHEIT jLgj;    Legat [1,0$]
   LERNE Taktik
   BEFoeRDERE
+  betrete burg zojd
 EINHEIT fp2L;    1. Legion [10,0$]
   LERNE Stangenwaffen
+  betrete burg zojd
 EINHEIT xvp5;    Ferdinand [1,50$]
   LERNE Wagenbau
+  betrete burg zojd
 EINHEIT i6jk;    Plattner [1,0$]
   Mache Schild
+  betrete burg zojd
 
 REGION 0,1 ; Norrerdobur
 ; ECheck Lohn 13
@@ -137,6 +163,7 @@ REGION 0,1 ; Norrerdobur
 EINHEIT eqxf;    Alter Troll [1,50$]
   // LERNE Wahrnehmung
   LERNE Unterhaltung
+  betrete burg jntm
 
 REGION 0,2 ; Navisrunun
 ; ECheck Lohn 13
