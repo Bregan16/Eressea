@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eresse Web View</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/zip.js"></script>
+    <script type="text/javascript" src="js/zip-ext.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+<div class="webview">
+    <div class="map">
+        <div class="regions"></div>
+        <div class="dropInfo">
+            .cr oder .zip Datei hier ablegen!
+        </div>
+    </div>
+    <div class="regionData"></div>
+    <div class="unitData"></div>
+    <div class="controlles">
+      <form>
+        <input type="file" id="imageInput" class="currentFile" size="50" maxlength="100000" accept=".cr,.zip">
+      </form>
+
+    </div>
+</div>
+
+
+<script>
+    sokesoft.eresse.webview({
+        'element':'.webview'
+        }
+    );
+</script>
+</body>
+</html>
