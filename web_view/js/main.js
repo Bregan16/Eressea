@@ -134,6 +134,10 @@ sokesoft.eresse.webview = function(configuration) {
         var offsetX = 233 + (Math.abs(regionDimension['x'][0]) ) * 64;
         $regions.css({'margin-top': offsetY + 'px', 'margin-left': offsetX + 'px'});
         $trigger.trigger('mapReady');
+        var mapWidth  = ( Math.abs(regionDimension['x'][0]) + Math.abs(regionDimension['x'][1]) ) * 64 + offsetX / 2;
+        var mapHeight = ( Math.abs(regionDimension['y'][0]) + Math.abs(regionDimension['y'][1]) ) * 64 + offsetY / 2;
+        $element.css({'width': mapWidth, 'height': mapHeight});
+        console.log('regionDimension', regionDimension)
     };
 
     /**
